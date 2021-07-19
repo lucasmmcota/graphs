@@ -8,7 +8,6 @@ def zerarDescobertos():
 
 
 def preencheListaAdjacencia(lista, listaAdjacencia):
-
     for i in lista[0]:
         separador = i.split()
 
@@ -23,7 +22,6 @@ def preencheListaAdjacencia(lista, listaAdjacencia):
 
 
 def preencheMatrizAdjacencia(matriz, matAdj):
-
     for i in matriz[0]:
         separador = i.split()
 
