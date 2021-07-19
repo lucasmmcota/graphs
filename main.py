@@ -76,7 +76,7 @@ def exibirInformacoes(grafo):
     input("\nAperte enter para exibir a frequencia relativa de cada grau !\n")
     print("\nFrequencia relativa:")
     for i in grausUnicos:
-        print("Grau", i, ":", listaGraus.count(i) / len(listaGraus))
+        print("Grau", i, ":", freqRel[i])
 
 
 def busca_largura(G, s):
